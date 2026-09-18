@@ -1,0 +1,11 @@
+sentence-transformers 
+chromadb 
+pypdf
+llama-cpp-python 
+chromadb 
+pydantic 
+rich
+einops
+numpy<2.0 
+scipy<1.13 
+transformers<4.43.0

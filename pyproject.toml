@@ -1,0 +1,22 @@
+[project]
+name = "local-agentic-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "PMETGAIC", email = "angelospadola0@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "llama-cpp-python>=0.3.35",
+    "pydantic>=2.13.5",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+local-agentic-rag = "local_agentic_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
